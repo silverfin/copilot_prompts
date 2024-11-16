@@ -1,0 +1,14 @@
+{
+  "customPrompts": {
+    "prompts": [
+      {
+        "command": "createPrintStatements",
+        "content": "For #Selection, create labeled prints using {{ }} that display the values of variables in selected code, for debugging purposes. Example: {% assign total_amount = total_amount*(loan_remaining_capital/loan_amount) %} should return: total_amount: {{total_amount}}\n loan_remaining_capital: {{loan_remaining_capital}}\n loan_amount: {{loan_amount}}\n"
+      },
+      {
+        "command": "applyIndentation",
+        "content": "Apply indentation to #Selection, consistently, for each separate tag, and based on Ruby 2-space indentation"
+      }
+    ]
+  }
+}
